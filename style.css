@@ -85,3 +85,25 @@ h1.temp{
     position: absolute;
     top: 0;
 }
+
+@media only screen and (max-width: 500px){
+    .card {
+        background: #a28089d0;
+        padding: 2em;
+        border-radius: 30px;
+        width: 100%;
+        max-width: 280px;
+        margin: auto;
+        transition: top 0.3s;
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        
+      }
+      
+      
+
+   }
+
+    
