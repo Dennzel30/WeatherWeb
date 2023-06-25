@@ -46,7 +46,7 @@ let weather = {
         .then((data) => this.displayWeather(data));
     }
 };
-
+weather.fetchWeather("Manila");
 document.querySelector(".search button").addEventListener("click", function() {
     weather.search();
 });
